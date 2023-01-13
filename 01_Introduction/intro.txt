@@ -1,0 +1,25 @@
+So how do we get jQuery? We have two options:
+
+1> Link a CDN hosted file (like we did for bootstrap)
+2> Download the .js file from jQuery’s official website
+
+Once you’ve connected the jQuery using the <script> tags in your HTML,
+then you can the specialized jQuery calls, to interact with the DOM.
+
+Let’s see a few examples of how jQuery differs from “vanilla” javascript.
+
+// jQuery
+var divs = $('div');
+
+// Vanilla
+var divs = document.querySelectorAll('div');
+
+/ jQuery
+$(el).css('border-width', '20px');
+
+// Vanilla
+el.style.borderWidth = '20px';
+
+As you can see some situations are helped tremendously by jQuery while others may not necessitate it.
+
+Due to its massive popularity, it is still very important to understand it, because you will run it to a lot in the real world!
