@@ -1,0 +1,54 @@
+
+>> $('h1')
+
+>> var x = $('h1')
+
+>> x.css('color','red')
+
+>> var newcss = {
+  'color' : 'red' , 'background' : 'blue' ,'border':'15px solid black'
+}
+
+>> x.css(newcss)
+
+>> var liitem = $('li')
+
+>> liitem
+
+>> liitem.css('color' , 'red')
+
+@ you should know that the 0 and -1 is here index of the item list :) 
+
+>> liitem.eq(0).css('color','orange')
+
+>> liitem.eq(0).css('color','green')
+
+>> liitem.eq(-1).css('color','green')
+
+>> $('h1').text()
+
+>> $('h1').text("Time to Link Your Heart with mine")
+
+>> $('h1').html("<em> Time to Link Your Heart with mine </em>")
+
+
+==================================================================================
+
+>> $('input')
+
+
+>> $('input').eq(1).attr('type','checkbox')
+
+>> $('input').eq(0).val('New Value')
+
+>> $('h1').addClass('turnRed')
+
+
+>> $('h1').removeClass('turnRed')
+
+@@ we manly use toggle class because in toggle class we don't need to use add and remove tags , i
+
+
+>> $('h1').toggleClass('turnRed')
+
+>>$('h1').toggleClass('turnRed')
